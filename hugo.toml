@@ -24,6 +24,28 @@ theme = 'PaperMod'
   name = "medium"
   url = "https://medium.com/@sajitvasudevan"
 
+[params.homeInfoParams]
+  Title = "Enterprise Architect | Cloud Platforms | Life Sciences"
+  Content = """
+25 years building technology solutions that scale. Currently architecting platforms serving 300,000+ users across clinical trials and regulatory environments.
+
+**Core expertise:** Enterprise architecture and cloud platforms (AWS) • GxP/HIPAA compliance in regulated environments • Clinical trials and regulatory systems • Large-scale platform design and implementation
+
+Exploring new opportunities in enterprise architecture, secure AI, and technology leadership.
+"""
+
+[[params.homeInfoParams.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/sajitvasudevan/"
+
+[[params.homeInfoParams.socialIcons]]
+  name = "github"  
+  url = "https://github.com/sajitvasudevan"
+
+[[params.homeInfoParams.socialIcons]]
+  name = "medium"
+  url = "https://medium.com/@sajitvasudevan"
+
 [menu]
   [[menu.main]]
     name = "About"
