@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sajit Vasudevan</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sajit Vasudevan</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Nov 2025 12:02:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 30 Nov 2025 12:02:00 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Enterprise Architect with 25 years of experience in technology, including 13 years specializing in life sciences and regulated environments.&lt;/p&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cognizant&lt;/strong&gt; - Enterprise Architect&lt;br&gt;
+Currently architecting platforms serving 300,000+ users across clinical trials and regulatory environments. Focus areas include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud platform architecture (AWS)&lt;/li&gt;
+&lt;li&gt;GxP and HIPAA compliance frameworks&lt;/li&gt;
+&lt;li&gt;Clinical trials management systems&lt;/li&gt;
+&lt;li&gt;Regulatory submission platforms&lt;/li&gt;
+&lt;li&gt;Enterprise-scale system design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-expertise&#34;&gt;Technical Expertise&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud &amp;amp; Infrastructure:&lt;/strong&gt; AWS, enterprise-scale architecture, high-availability systems&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regulated Environments:&lt;/strong&gt; GxP compliance, HIPAA, clinical trials, regulatory affairs&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Technical Blog</title>
+      <link>http://localhost:1313/blog/first-post/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/first-post/</guid>
+      <description>&lt;p&gt;This is my new central hub for technical writing. I&amp;rsquo;ve been writing on Medium and LinkedIn, but I&amp;rsquo;m consolidating everything here for better control and ownership of my content.&lt;/p&gt;
+&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;
+&lt;p&gt;I write about enterprise architecture, cloud platforms, and building systems at scale in regulated environments. Expect deep dives into:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Architecture patterns and tradeoffs&lt;/li&gt;
+&lt;li&gt;AWS and cloud infrastructure&lt;/li&gt;
+&lt;li&gt;GxP compliance and regulated systems&lt;/li&gt;
+&lt;li&gt;Technical leadership and strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-github-pages&#34;&gt;Why GitHub Pages?&lt;/h2&gt;
+&lt;p&gt;After years of publishing on platforms I don&amp;rsquo;t control, I want a canonical source for my work. GitHub Pages gives me:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
