@@ -1,4 +1,4 @@
-baseURL = 'https://sajitvasudevan.github.io/'
+baseURL = 'https://sajitvasudevan.github.io'
 languageCode = 'en-us'
 title = 'Sajit Vasudevan'
 theme = 'PaperMod'
