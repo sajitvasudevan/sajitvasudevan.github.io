@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/portfolio/clinical-trials-platform/</guid>
       <description>Architected platform serving 300,000+ users across clinical trials and regulatory environments</description>
     </item>
+    <item>
+      <title>Learn About Enterprise Architecture</title>
+      <link>http://localhost:1313/blog/learn-about-enterprise-architecture/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/learn-about-enterprise-architecture/</guid>
+      <description>A comprehensive guide to understanding enterprise architecture fundamentals</description>
+    </item>
   </channel>
 </rss>
