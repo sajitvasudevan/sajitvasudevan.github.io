@@ -34,7 +34,7 @@ theme = 'PaperMod'
 
 [[params.socialIcons]]
   name = "medium"
-  url = "https://medium.com/@sajitvasudevan"
+  url = "https://medium.com/@sajit.vasudevan"
 
 [menu]
   [[menu.main]]
