@@ -1,4 +1,9 @@
-# Welcome to My Tech Blog
+---
+title: "Home"
+layout: home
+---
 
-This site is powered by GitHub Pages and Jekyll.  
+Welcome to my tech blog.
+
+This site is powered by GitHub Pages and Jekyll.
 More content coming soon.
