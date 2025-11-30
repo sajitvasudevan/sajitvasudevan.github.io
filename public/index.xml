@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sajit Vasudevan</title>
+    <title>Home on Sajit Vasudevan</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Sajit Vasudevan</description>
+    <description>Recent content in Home on Sajit Vasudevan</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Nov 2025 12:02:00 -0500</lastBuildDate>
@@ -28,6 +28,13 @@ Currently architecting platforms serving 300,000+ users across clinical trials a
 &lt;h2 id=&#34;technical-expertise&#34;&gt;Technical Expertise&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Cloud &amp;amp; Infrastructure:&lt;/strong&gt; AWS, enterprise-scale architecture, high-availability systems&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Regulated Environments:&lt;/strong&gt; GxP compliance, HIPAA, clinical trials, regulatory affairs&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clinical Trials Platform Architecture</title>
+      <link>http://localhost:1313/portfolio/clinical-trials-platform/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/clinical-trials-platform/</guid>
+      <description>Architected platform serving 300,000+ users across clinical trials and regulatory environments</description>
     </item>
     <item>
       <title>Welcome to My Technical Blog</title>

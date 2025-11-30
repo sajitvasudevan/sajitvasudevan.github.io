@@ -15,26 +15,30 @@ theme = 'PaperMod'
 [params.profileMode]
   enabled = true
   title = "Sajit Vasudevan"
-  subtitle = "Enterprise Architect | Cloud Platforms | Life Sciences"
-  imageUrl = ""
+  subtitle = "Enterprise Architect | AWS Cloud Platforms | Life Sciences"
+  imageUrl = "/images/profile.jpg"
   imageTitle = ""
   buttons = [
-    {name = "About", url = "/about/"},
-    {name = "Portfolio", url = "/portfolio/"},
-    {name = "Blog", url = "/blog/"}
+    {name = "📄 About", url = "/about/"},
+    {name = "🏗️ Portfolio", url = "/portfolio/"},
+    {name = "✍️ Blog", url = "/blog/"}
   ]
 
-[[params.socialIcons]]
+[[params.profileMode.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/sajitvasudevan/"
 
-[[params.socialIcons]]
+[[params.profileMode.socialIcons]]
   name = "github"
   url = "https://github.com/sajitvasudevan"
 
-[[params.socialIcons]]
+[[params.profileMode.socialIcons]]
   name = "medium"
   url = "https://medium.com/@sajit.vasudevan"
+
+[[params.profileMode.socialIcons]]
+  name = "email"
+  url = "mailto:sajit.vasudevan@gmail.com"
 
 [menu]
   [[menu.main]]
