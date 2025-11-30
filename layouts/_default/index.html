@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+{{- if .Site.Params.profileMode.enabled }}
+{{- partial "index_profile.html" . }}
+{{- end }}
+
+<!-- Metrics Section -->
+<div class="metrics-section">
+    <div class="metric-card">
+        <div class="metric-number">25+</div>
+        <div class="metric-label">Years Experience</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-number">300K+</div>
+        <div class="metric-label">Users Served</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-number">13</div>
+        <div class="metric-label">Years in Life Sciences</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-number">99.9%</div>
+        <div class="metric-label">Platform Uptime</div>
+    </div>
+</div>
+
+<!-- Featured Work Section -->
+<section class="featured-section">
+    <h2>Featured Work</h2>
+    <div class="featured-grid">
+        <a href="/portfolio/clinical-trials-platform/" class="featured-card">
+            <h3>🏥 Clinical Trials Platform</h3>
+            <p>Enterprise architecture serving 300K+ users across global clinical trials with full GxP compliance</p>
+            <span class="read-more">View Case Study →</span>
+        </a>
+        <a href="/portfolio/" class="featured-card">
+            <h3>☁️ AWS Cloud Migration</h3>
+            <p>Large-scale infrastructure modernization with zero-downtime migration strategy</p>
+            <span class="read-more">Coming Soon</span>
+        </a>
+        <a href="/portfolio/" class="featured-card">
+            <h3>🔒 Compliance Framework</h3>
+            <p>Enterprise GxP/HIPAA compliance architecture for regulated environments</p>
+            <span class="read-more">Coming Soon</span>
+        </a>
+    </div>
+</section>
+
+<!-- Recent Posts Section -->
+<section class="recent-posts-section">
+    <h2>Recent Writing</h2>
+    <div class="posts-grid">
+        {{- range first 3 (where .Site.RegularPages "Type" "blog") }}
+        <a href="{{ .Permalink }}" class="post-card">
+            <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <span class="read-more">Read More →</span>
+        </a>
+        {{- end }}
+    </div>
+    <div class="view-all">
+        <a href="/blog/">View All Posts →</a>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <h2>Let's Build Something Together</h2>
+    <p>Looking for an enterprise architect with deep expertise in cloud platforms and regulated environments?</p>
+    <div class="cta-buttons">
+        <a href="https://www.linkedin.com/in/sajitvasudevan/" class="cta-button primary">Connect on LinkedIn</a>
+        <a href="/about/" class="cta-button secondary">Learn More About Me</a>
+    </div>
+</section>
+
+{{- end }}
