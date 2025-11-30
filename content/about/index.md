@@ -25,9 +25,11 @@ Currently architecting platforms serving 300,000+ users across clinical trials a
 
 **Regulated Environments:** GxP compliance, HIPAA, clinical trials, regulatory affairs
 
-**Architecture:** Domain-driven design, microservices, API design, data architecture
+**Architecture:** Domain-driven design, API design, data architecture
 
 **Leadership:** Technical strategy, architecture governance, cross-functional collaboration
+
+**AI:** AI strategy, AI Security, Models
 
 ## Current Focus
 
@@ -36,7 +38,8 @@ Exploring opportunities in:
 - Secure AI architecture
 - Technology consulting
 - Cloud transformation programs
+- AI Strategy
 
 ## Contact
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/sajitvasudevan/) or view my work on [GitHub](https://github.com/sajitvasudevan).
+Connect or leave a message with me on [LinkedIn](https://www.linkedin.com/in/sajitvasudevan/)

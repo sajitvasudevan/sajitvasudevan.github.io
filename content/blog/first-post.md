@@ -5,7 +5,7 @@ draft: false
 tags: ['introduction']
 ---
 
-This is my new central hub for technical writing. I've been writing on Medium and LinkedIn, but I'm consolidating everything here for better control and ownership of my content.
+This is my new central hub for technical writing. I've been writing on Medium and LinkedIn, but I am consolidating everything here for better control and ownership of my content.
 
 ## What to Expect
 
@@ -23,6 +23,4 @@ After years of publishing on platforms I don't control, I want a canonical sourc
 - Full ownership of content
 - Version control for articles
 - Technical flexibility
-- No algorithmic manipulation of reach
-
-More content coming soon.
+- Free platform and visible to all

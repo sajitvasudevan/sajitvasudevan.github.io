@@ -18,7 +18,7 @@ Design and implement a scalable, compliant platform to support clinical trial op
 - 99.9% uptime SLA with disaster recovery
 
 **Key Components:**
-- Microservices architecture for clinical data management
+- Key component based architecture for clinical data management
 - Event-driven processing for real-time compliance monitoring
 - API gateway for third-party integrations (EHR, EDC systems)
 - Multi-region deployment for data residency compliance
@@ -31,7 +31,7 @@ Design and implement a scalable, compliant platform to support clinical trial op
 - GxP validation framework
 - HIPAA compliance controls
 - Audit trail and electronic signatures (21 CFR Part 11)
-- Role-based access control (RBAC) with attribute-based extensions
+
 
 **Data Architecture:**
 - PostgreSQL for transactional data
