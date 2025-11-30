@@ -12,6 +12,16 @@ theme = 'PaperMod'
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+[params]
+  description = "Enterprise Architect | 25 years in technology | AWS, GxP compliance, clinical trials platforms"
+  author = "Sajit Vasudevan"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  profileMode = true
+
 [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/sajitvasudevan/"
