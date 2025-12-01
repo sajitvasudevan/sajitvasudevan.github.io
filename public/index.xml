@@ -30,6 +30,13 @@ Currently architecting platforms serving 300,000+ users across clinical trials a
 &lt;p&gt;&lt;strong&gt;Regulated Environments:&lt;/strong&gt; GxP compliance, HIPAA, clinical trials, regulatory affairs&lt;/p&gt;</description>
     </item>
     <item>
+      <title>💡 Tip: Never Store Secrets in Kubernetes ConfigMaps</title>
+      <link>http://localhost:1313/blog/tip-kubernetes-secrets/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tip-kubernetes-secrets/</guid>
+      <description>Quick security tip for Kubernetes deployments</description>
+    </item>
+    <item>
       <title>Clinical Trials Platform Architecture</title>
       <link>http://localhost:1313/portfolio/clinical-trials-platform/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>

@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-30T12:02:00-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/tip-kubernetes-secrets/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,10 +32,19 @@
     <loc>http://localhost:1313/tags/introduction/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/kubernetes/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tip/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/first-post/</loc>
@@ -48,6 +60,8 @@
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tips/</loc>
   </url><url>
     <loc>http://localhost:1313/cartoon/</loc>
   </url>

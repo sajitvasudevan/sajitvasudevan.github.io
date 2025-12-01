@@ -1,0 +1,156 @@
+{{- define "main" }}
+
+{{- if .Site.Params.profileMode.enabled }}
+{{- partial "index_profile.html" . }}
+{{- end }}
+
+<!-- Metrics Section -->
+<div class="metrics-section">
+    <div class="metric-card">
+        <div class="metric-number">25+</div>
+        <div class="metric-label">Years Experience</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-number">300K+</div>
+        <div class="metric-label">Users Served</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-number">13</div>
+        <div class="metric-label">Years in Life Sciences</div>
+    </div>
+</div>
+
+<!-- Technology Stack Section -->
+<section class="tech-stack-section">
+    <h2>Technology Expertise</h2>
+    <div class="tech-grid">
+        <div class="tech-category">
+            <h3>☁️ Cloud & Infrastructure</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">EC2</span>
+                <span class="tech-tag">RDS</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">CloudFront</span>
+                <span class="tech-tag">S3</span>
+            </div>
+        </div>
+        <div class="tech-category">
+            <h3>🏗️ Architecture & Design</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">Event-Driven</span>
+                <span class="tech-tag">Domain-Driven Design</span>
+                <span class="tech-tag">API Design</span>
+                <span class="tech-tag">High Availability</span>
+            </div>
+        </div>
+        <div class="tech-category">
+            <h3>🔒 Compliance & Security</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">GxP Validation</span>
+                <span class="tech-tag">HIPAA</span>
+                <span class="tech-tag">21 CFR Part 11</span>
+                <span class="tech-tag">Audit Trails</span>
+            </div>
+        </div>
+        <div class="tech-category">
+            <h3>💾 Data & Analytics</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Data Lakes</span>
+                <span class="tech-tag">ETL Pipelines</span>
+                <span class="tech-tag">Real-time Processing</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Weekly Cartoon Teaser -->
+<section class="cartoon-teaser">
+    <div class="cartoon-container">
+        <h2>📰 This Week's Cartoon</h2>
+        <p class="cartoon-subtitle">Enterprise Architecture Meets Workplace Humor</p>
+        <div class="cartoon-frame">
+            <img src="/images/cartoons/latest.png" alt="This week's cartoon" />
+        </div>
+        <div class="cartoon-actions">
+            <a href="/cartoon/" class="cartoon-link">View Archive →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Latest Tech Tip -->
+{{- $latestTip := first 1 (where .Site.RegularPages "Params.type" "tip") }}
+{{- if $latestTip }}
+<section class="latest-tip-section">
+    <div class="tip-container">
+        <h2>💡 Latest Tech Tip</h2>
+        {{- range $latestTip }}
+        <div class="tip-content-preview">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+            <div class="tip-meta">
+                <span class="tip-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                <a href="{{ .Permalink }}" class="read-tip-link">Read Tip →</a>
+            </div>
+        </div>
+        {{- end }}
+        <div class="all-tips-link">
+            <a href="/tags/tip/">View All Tips</a>
+        </div>
+    </div>
+</section>
+{{- end }}
+
+
+<!-- Featured Work Section -->
+<section class="featured-section">
+    <h2>Featured Work</h2>
+    <div class="featured-grid">
+        <a href="/portfolio/clinical-trials-platform/" class="featured-card">
+            <h3>🏥 Clinical Trials Platform</h3>
+            <p>Enterprise architecture serving 300K+ users across global clinical trials with full GxP compliance</p>
+            <span class="read-more">View Case Study →</span>
+        </a>
+        <a href="/portfolio/" class="featured-card">
+            <h3>☁️ AWS Cloud Migration</h3>
+            <p>Large-scale infrastructure modernization with zero-downtime migration strategy</p>
+            <span class="read-more">Coming Soon</span>
+        </a>
+        <a href="/portfolio/" class="featured-card">
+            <h3>🔒 Compliance Framework</h3>
+            <p>Enterprise GxP/HIPAA compliance architecture for regulated environments</p>
+            <span class="read-more">Coming Soon</span>
+        </a>
+    </div>
+</section>
+
+<!-- Recent Posts Section -->
+<section class="recent-posts-section">
+    <h2>Recent Writing</h2>
+    <div class="posts-grid">
+        {{- range first 3 (where .Site.RegularPages "Type" "blog") }}
+        <a href="{{ .Permalink }}" class="post-card">
+            <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <span class="read-more">Read More →</span>
+        </a>
+        {{- end }}
+    </div>
+    <div class="view-all">
+        <a href="/blog/">View All Posts →</a>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <h2>Let's Build Something Together</h2>
+    <p>Looking for an enterprise architect with deep expertise in cloud platforms and regulated environments?</p>
+    <div class="cta-buttons">
+        <a href="https://www.linkedin.com/in/sajitvasudevan/" class="cta-button primary">Connect on LinkedIn</a>
+        <a href="/about/" class="cta-button secondary">Learn More About Me</a>
+    </div>
+</section>
+
+{{- end }}
