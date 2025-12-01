@@ -53,3 +53,7 @@ theme = 'PaperMod'
     name = "Blog"
     url = "/blog/"
     weight = 3
+  [[menu.main]]
+    name = "Cartoon"
+    url = "/cartoon/"
+    weight = 4
