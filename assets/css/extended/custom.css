@@ -60,9 +60,13 @@
 .profile .profile_inner .subtitle {
     font-size: 1.2em !important;
     margin-bottom: 20px !important;
-    color: rgba(255,255,255,0.95) !important;
-    font-weight: 400 !important;
-    text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+    color: white !important;
+    font-weight: 500 !important;
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.2);
+    padding: 8px 20px;
+    border-radius: 25px;
+    display: inline-block;
 }
 
 .profile .buttons {
