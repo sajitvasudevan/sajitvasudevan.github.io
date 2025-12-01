@@ -41,7 +41,7 @@ Currently architecting platforms serving 300,000+ users across clinical trials a
       <link>http://localhost:1313/blog/first-post/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/first-post/</guid>
-      <description>&lt;p&gt;This is my new central hub for technical writing. I&amp;rsquo;ve been writing on Medium and LinkedIn, but I&amp;rsquo;m consolidating everything here for better control and ownership of my content.&lt;/p&gt;
+      <description>&lt;p&gt;This is my new central hub for technical writing. I&amp;rsquo;ve been writing on Medium and LinkedIn, but I am consolidating everything here for better control and ownership of my content.&lt;/p&gt;
 &lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;
 &lt;p&gt;I write about enterprise architecture, cloud platforms, and building systems at scale in regulated environments. Expect deep dives into:&lt;/p&gt;
 &lt;ul&gt;
