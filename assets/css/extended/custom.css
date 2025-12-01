@@ -200,6 +200,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 10px;
+	white-space: nowrap;
 }
 
 .metric-label {
