@@ -6,8 +6,15 @@
     <description>Recent content in Home on Sajit Vasudevan</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 12:02:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💡 Tip: Show the folder structure of any git repository</title>
+      <link>http://localhost:1313/blog/tip-foldergit/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tip-foldergit/</guid>
+      <description>Quick way to show the folder structure of any github</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>

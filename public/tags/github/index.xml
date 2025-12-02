@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Github on Sajit Vasudevan</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on Sajit Vasudevan</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💡 Tip: Show the folder structure of any git repository</title>
+      <link>http://localhost:1313/blog/tip-foldergit/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tip-foldergit/</guid>
+      <description>Quick way to show the folder structure of any github</description>
+    </item>
+  </channel>
+</rss>

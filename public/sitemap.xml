@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-11-30T12:02:00-05:00</lastmod>
+    <loc>http://localhost:1313/blog/tip-foldergit/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/folder/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tip/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-11-30T12:02:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tip-kubernetes-secrets/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/aws/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/clinical-trials-platform/</loc>
@@ -39,12 +54,6 @@
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/security/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tip/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/first-post/</loc>
