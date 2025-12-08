@@ -7,7 +7,7 @@ summary: 'Quick security tip for Kubernetes deployments'
 type: 'tip'
 ---
 
-**The Problem:** I've seen teams store database passwords and API keys in ConfigMaps because they are easier to work with than Secrets.
+**The Problem:** I have seen teams store database passwords and API keys in ConfigMaps because they are easier to work with than Secrets.
 
 **Why it is dangerous:** ConfigMaps are stored in plain text in etcd. Anyone with read access to the namespace can see them. They are meant for non-sensitive config only.
 
