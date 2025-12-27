@@ -7,7 +7,7 @@ description: "Enterprise architecture meets workplace humor"
 
 ![Latest cartoon](/images/cartoons/latest.png)
 
-*Posted: Week 49, 2025*
+*Posted: Week 52, 2025*
 
 
 ---
@@ -16,6 +16,7 @@ description: "Enterprise architecture meets workplace humor"
 
 ### 2025
 
+- [Week 52](/images/cartoons/2025-W52.png) - December 2025
 - [Week 50](/images/cartoons/2025-W50.png) - December 2025
 - [Week 49](/images/cartoons/2025-W49.png) - December 2025
 - [Week 48](/images/cartoons/2025-W48.png) - November 2025
