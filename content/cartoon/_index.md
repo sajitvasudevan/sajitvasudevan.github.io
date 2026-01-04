@@ -7,12 +7,17 @@ description: "Enterprise architecture meets workplace humor"
 
 ![Latest cartoon](/images/cartoons/latest.png)
 
-*Posted: Week 52, 2025*
+*Posted: Week 1, 2026*
 
 
 ---
 
 ## Archive
+
+### 2026
+
+- [Week 1](/images/cartoons/2026-W01.png) - January 2026
+
 
 ### 2025
 

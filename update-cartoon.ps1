@@ -3,7 +3,7 @@
 
 $weekNumber = Get-Date -UFormat %V
 $year = Get-Date -UFormat %Y
-$cartoonFile = "2025-W$weekNumber.png"
+$cartoonFile = $year + "-W$weekNumber.png"
 $sourceImage = ".\new-cartoon.png"  # Your new cartoon file
 $targetPath = ".\static\images\cartoons\$cartoonFile"
 
